@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'COCOGOOSE';
+    src: url(fonts/HeinekenSerif18-Bold.ttf);
+    font-weight: regular;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+#millones{
+    font-size: 45pt ;
+    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    left: 5%;
+    top: 28%;
+    right: 2%;
+    position: absolute;
+}
+/* 768x384 */
+@media only screen and (max-width: 768px) {
+    #millones, #title1{
+        font-size: 50pt !important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #fff;
+        left: 25%;
+        top: 41%;
+        right: 8%;
+        position: absolute;
+    }
+    #millones, #title2{
+        font-size: 50pt !important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #fff;
+        left: 54%;
+        top: 41%;
+        right: 8%;
+        position: absolute;
+    }
+
+    #millones2, #title3{
+        font-size: 25pt !important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #fff;
+        left: 50%;
+        top: 52%;
+        right: 8%;
+        position: absolute;
+    }
+}
